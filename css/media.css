@@ -1,111 +1,133 @@
-@media screen and (max-width: 1054px){
- html{
- 	font-size: 16px;
- }
- .container{
- 	margin: 0;
- 	width: ;
- }
-	.promo{
-	background-size: 0;
-}
- .promo{
-	background: url(../images/main-pic.jpg) 50% 0 no-repeat;
-	height: auto;
-	width: 100%;
-}
-.promo a{
-	font-size: 7vw;
-	padding-top: 5vw;
-	display: block;
-}
-.promo p{
-	font-size: 3vw;
-	margin-top: 2vw;
-}
- .column{
-	width: 46%;
-	height: auto;
-	padding: 0.625em;
-}
-.under-promo p{
-	font-size: 6vw;
-	margin-top: 2vw;
-}
-.under-promo span{
-	font-size: 3vw;
-}
- img{
-	margin: 0 0.8125em;
-	width: 46%;
-	height: auto;
- }
- .portfolio button{
-	font-size: 1.125rem;
-	width: 9.4375em;
-	height: 2.625em;
-	margin-top: 2.25em;
-}
-.column-2{
-	border-right: none;
+@media screen and (max-width: 1054px) {
+    html {
+        font-size: 16px;
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    .promo {
+        background-size: 0;
+    }
+
+    .promo {
+        background: url(../images/main-pic.jpg) 50% 0 no-repeat;
+        height: auto;
+        width: 100%;
+    }
+
+    .promo a {
+        font-size: 7vw;
+        padding-top: 5vw;
+        display: block;
+    }
+
+    .promo p {
+        font-size: 3vw;
+        margin-top: 2vw;
+    }
+
+    .column {
+        width: 46%;
+        height: auto;
+        padding: 0.625em;
+    }
+
+    .under-promo p {
+        font-size: 6vw;
+        margin-top: 2vw;
+    }
+
+    .under-promo span {
+        font-size: 3vw;
+    }
+
+    img {
+        margin: 0 0.8125em;
+        width: 46%;
+        height: auto;
+    }
+
+    .portfolio button {
+        font-size: 1.125rem;
+        width: 9.4375em;
+        height: 2.625em;
+        margin-top: 2.25em;
+    }
+
+    .column-2 {
+        border-right: none;
+    }
+
+    .portfolio button {
+        font-size: 1.125em;
+        width: 9.4375em;
+        height: 2.625em;
+        margin-top: 2.25em;
+    }
+
+    .under-columns span::after {
+        content: "";
+        display: block;
+        background: url(../images/ic-line.png) 0 0 no-repeat;
+        margin: 1.9375em 0 2.9375em 1em;
+        width: 100%;
+
+    }
 }
 
-.portfolio button{
-	font-size: 1.125em;
-	width: 9.4375em;
-	height: 2.625em;
-	margin-top: 2.25em;
-}
-.under-columns span::after{
-	content: "";
-	display: block;
-	background: url(../images/ic-line.png) 0 0 no-repeat;
-	margin: 1.9375em 0 2.9375em 1em;
-	width: 100%;
+@media screen and (max-width: 847px) {
+    .under-columns span::after {
+        content: "";
+        display: block;
+        background: url(../images/ic-line.png) 0 0 no-repeat;
+        margin: 1.9375em 0 2.9375em 1em;
+        width: 100%;
+        height: auto;
+    }
 
- }
-}
-@media screen and (max-width: 847px){
-.under-columns span::after{
-	content: "";
-	display: block;
-	background: url(../images/ic-line.png) 0 0 no-repeat;
-	margin: 1.9375em 0 2.9375em 1em;
-	width: 100%;
-	height: auto;
- }
-}
-@media screen and (max-width: 530px){
-.column{
-	border-right: none;
- }
- .under-columns span::after{
-	content: "";
-	display: block;
-	background: url(../images/ic-line.png) 0 0 no-repeat;
-	margin: 1.9375em 0 2.9375em 1em;
-	width: 100%;
-
- }
- .under-columns span::after{
-	content: "";
-	display: block;
-	width: 93vw;
-}
-@media screen and (max-width: 480px){
-.container{
-	width: 10vw;
-	margin: 0;
-}
-.under-columns span::after{
-	content: "";
-	display: block;
-	background: url(../images/ic-line.png) 0 0 no-repeat;
-	margin: 1.9375em 0 2.9375em 1em;
-	width: 100%;
- }
- h1{
- 	padding-left: 24px;
- }
+    .column span {
+        padding: 0;
+    }
 }
 
+@media screen and (max-width: 530px) {
+    .column {
+        border-right: none;
+    }
+
+    .under-columns span::after {
+        content: "";
+        display: block;
+        background: url(../images/ic-line.png) 0 0 no-repeat;
+        margin: 1.9375em 0 2.9375em 1em;
+        width: 100%;
+
+    }
+
+    .under-columns span::after {
+        content: "";
+        display: block;
+        width: 93vw;
+    }
+}
+
+    @media screen and (max-width: 480px) {
+        .container {
+            width: 10vw;
+            margin: 0;
+        }
+
+        .under-columns span::after {
+            content: "";
+            display: block;
+            background: url(../images/ic-line.png) 0 0 no-repeat;
+            margin: 1.9375em 0 2.9375em 1em;
+            width: 100%;
+        }
+
+        h1 {
+            padding-left: 24px;
+        }
+    }
